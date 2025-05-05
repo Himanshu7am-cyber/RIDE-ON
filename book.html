@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book a Ride - RIDE ON</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+  <header>
+    <div class="logo">RIDE ON</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Book</a></li>
+        <li><a href="#">Partner</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="booking-section">
+    <h1>Book Your Ride</h1>
+    <form class="booking-form">
+      <input type="text" placeholder="Pickup Location" required>
+      <input type="text" placeholder="Drop Location" required>
+
+      <label for="ride-type">Select Ride Type:</label>
+      <select id="ride-type" required>
+        <option value="">-- Choose --</option>
+        <option value="bike">Bike</option>
+        <option value="auto">Auto</option>
+        <option value="car">Car</option>
+      </select>
+
+      <label for="schedule">Schedule Ride (optional):</label>
+      <input type="datetime-local" id="schedule">
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RIDE ON. All rights reserved.</p>
+  </footer>
+</body>
+</html>
