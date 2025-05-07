@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #3182f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .signup-container {
+    display: flex;
+    width: 90%;
+    max-width: 1000px;
+    height: 600px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Left Panel */
+  .signup-left {
+    flex: 1;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+  }
+  
+  .brand {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #3182f6;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-left h2 {
+    font-size: 1.4rem;
+    color: #0a0a0a;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .signup-left p {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .signup-form input {
+    padding: 0.9rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .btn-primary {
+    flex: 1;
+    padding: 0.9rem;
+    background: #3182f6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background: #2563eb;
+  }
+  
+  .login-text {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  .login-text a {
+    color: #3182f6;
+    text-decoration: none;
+  }
+  
+  /* Right Panel */
+  .signup-right {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-right img {
+    width: 90%;
+    max-width: 400px;
+  }
+  

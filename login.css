@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #3182f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  width: 90%;
+  max-width: 1000px;
+  height: 600px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Panel */
+.login-left {
+  flex: 1;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+}
+
+.brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #3182f6;
+  margin-bottom: 1rem;
+}
+
+.login-left h2 {
+  font-size: 1.2rem;
+  color: #0a0a0a;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.login-left p {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.login-form input {
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.options a {
+  text-decoration: none;
+  color: #3182f6;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  flex: 1;
+  padding: 0.9rem;
+  background: #dff631;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  flex: 1;
+  padding: 0.9rem;
+  background: transparent;
+  border: 2px solid #f6ec31;
+  color: #3182f6;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.social-text {
+  text-align: center;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #31b8f6;
+  font-weight: 500;
+}
+
+/* Right Panel */
+.login-right {
+  flex: 1;
+  background: #f9f9f9;
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-right img {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.nav-menu {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+}
+
+.nav-menu a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.nav-menu a.active {
+  border-bottom: 2px solid #3182f6;
+  padding-bottom: 2px;
+}
